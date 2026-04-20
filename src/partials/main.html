@@ -1,25 +1,34 @@
 <main>
   <div class="intro js_intro">
     <h2>Bienvenido a Boas Vibras, una marca que nace con la ilusión de crear una marca de ropa auténtica, desde el cariño y con mucho flow.
-</h2>
+    </h2>
   </div>
-  <div class="products" id="products">
+  <div class="products js_products" id="products">
     <h3>¡Échale un vistazo a nuestros productos!</h3>
-    <img src="/product1.jpeg" alt="" id="1"/>
-    <img src="/product2.jpeg" alt="" id="2"/>
-    <img src="/product3.jpeg" alt="" id="3"/>
-    <img src="/product4.jpeg" alt="" id="4"/>
-    <img src="/product5.jpeg" alt="" id="5"/>
+    <div class="carousel js_carousel">
+      <div class="carousel-track js_carouselTrack">
+        <img class="carousel-slide js_carouselSlide" src="/product1.jpeg" alt="" id="1"/>
+        <img class="carousel-slide js_carouselSlide" src="/product2.jpeg" alt="" id="2"/>
+        <img class="carousel-slide js_carouselSlide" src="/product3.jpeg" alt="" id="3"/>
+        <img class="carousel-slide js_carouselSlide" src="/product4.jpeg" alt="" id="4"/>
+        <img class="carousel-slide js_carouselSlide" src="/product5.jpeg" alt="" id="5"/>
+      </div>
+      <button class="carousel-btn js_carouselBtn left"></button>
+      <button class="carousel-btn js_carouselBtn right"></button>
+
+      <div class="carousel-dots js_carouselDots"></div>
+    </div>
+    
   </div>
-  <div class="more-about">
+  <div class="more-about js_moreAbout" id="moreAbout">
     <h3>¿Quieres sabes más sobre Boas Vibras?</h3>
     <p>¿Estás cansado de comprar ropa de baja calidad que no te representa? Nosotros sí.</p>
   </div>
-  <div class="socialmedia" id="socialmedia">
+  <div class="socialmedia js_socialMedia" id="socialmedia">
     <h3>¡Síguenos!</h3>  
     <p>En Instagram</p>
   </div>
-  <div class="contact">
+  <div class="contact js_contact" id="contact">
     <h3>¿Quieres contactar con nosotros?</h3>
     <p>Rellena este formulario y te contestaremos en un plazo de 72h</p>
     <fieldset>
@@ -35,6 +44,5 @@
       </form>
     </fieldset>
   </div>
-    
 
 </main>

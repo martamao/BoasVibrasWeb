@@ -1,4 +1,5 @@
 @use 'core/reset';
+@use 'core/variables' as vars;
 @use 'components/code';
 @use 'components/links';
 @use 'layout/page';
@@ -7,3 +8,10 @@
 @use 'pages/index';
 
 //@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+.products img {
+    max-width:150px;
+    max-height: 150px;
+}
+body{
+    background: var(--color-gradient);
+}

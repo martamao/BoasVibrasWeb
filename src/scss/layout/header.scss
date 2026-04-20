@@ -1,3 +1,11 @@
+@use '../core/variables' as var;
+@use '../core/reset' as reset;
+
+.headerImg{
+  max-width: 150px;
+  background-color: var(--color-gradient);
+}
+/*
 header{
   display: flex;
   flex-direction:column;
@@ -9,6 +17,8 @@ header{
   height: 200px;
   position: relative;
 }
+  */
+/*
 header .logo{
   height: 90%;
   display:flex;
@@ -35,11 +45,11 @@ header .titulo a{
   text-decoration: none;
   color: white;
 }
-/*nav-bar*/
+//nav-bar
 
 nav{
-  position:fixed;
-  top:200px;
+  //position:fixed;
+  //top:200px;
   left:0;
   width:200px;
   background-color: #333;
@@ -80,3 +90,4 @@ nav a:hover{
   color: black;
   border-radius: 45%;
 }
+*/

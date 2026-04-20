@@ -1,6 +1,9 @@
+:root{
 // fonts
-$font-main: 'Roboto', sans-serif;
+--font-main: 'Roboto', sans-serif;
 
 // colors
-$color-bg: #f3f4f5;
-$color-secondary: #999;
+--color-bg: linear-gradient(45deg, #00ff99, #ff00cc, #00ccff, #ff6600);
+--color-secondary: #999;
+--color-gradient: linear-gradient(45deg, #00ff99, #ff00cc, #00ccff, #ff6600);
+}

@@ -3,17 +3,19 @@
 .headerImg {
   animation: moveHeader 5s linear infinite;
 }
-
+/*
 @keyframes moveHeader {
   0% { transform: translateX(-100px); }
-  50% { transform: translateX(100px); } /* Se mueve a la derecha */
-  100% { transform: translateX(-100px); } /* Regresa */
+  50% { transform: translateX(100px); } // Se mueve a la derecha
+  100% { transform: translateX(-100px); } // Regresa
 }
+*/
 header {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  background: var(--color-gradient);
 }
 .navUl {
   list-style: none;
